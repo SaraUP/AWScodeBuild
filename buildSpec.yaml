@@ -4,13 +4,13 @@ version: 0.2
             runtime-versions:
                 python: 3.7
             commands:
-                - echo install2
+                - echo install
         pre_build:
             commands:
-                - echo pre-build2
+                - echo pre-build
         build:
             commands:
-                - echo build2
+                - echo build
         post_build:
             commands:
-                - echo post-build2
+                - echo post-build
