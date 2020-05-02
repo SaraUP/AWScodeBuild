@@ -7,10 +7,10 @@ version: 0.2
                 - ./deploy.sh -i
         pre_build:
             commands:
-                - echo pre-build2
+                - echo pre-buildsara
         build:
             commands:
                 - ./deploy.sh -b
         post_build:
             commands:
-                - echo post-build
+                - echo post-buildsara
