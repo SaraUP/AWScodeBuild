@@ -4,13 +4,13 @@ version: 0.2
             runtime-versions:
                 python: 3.7
             commands:
-                - ./deploy.sh -i
+                - echo install
         pre_build:
             commands:
-                - echo pre-buildsara
+                - echo pre-build
         build:
             commands:
-                - ./deploy.sh -b
+                - echo build
         post_build:
             commands:
-                - echo post-buildsara
+                - echo post-build
